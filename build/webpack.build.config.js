@@ -8,7 +8,8 @@ const targetPath = '../src/components';
 const baseConfig = {
   entry: {
     'button1': path.resolve(__dirname, `${targetPath}/button1/index.tsx`),
-    'button2': path.resolve(__dirname, `${targetPath}/button2/index.tsx`)
+    'button2': path.resolve(__dirname, `${targetPath}/button2/index.tsx`),
+    'CostCenter': path.resolve(__dirname, `${targetPath}/CostCenter/index.tsx`)
   },
   mode: 'production',
   output: {
